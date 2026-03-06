@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# 模型权重与数据（避免上传到 GitHub 导致仓库过大）
+*.pth
+*.pt
+# *.onnx
+# fusion_model.pth
+# rtdetr-l.pt
+
+# 输出与日志
+*.log
+detection_results_*/
+time_aligned_*.mp4
+spatial_aligned_*.mp4
+dehazed_*.mp4
+fused_video.mp4
+detected_video.mp4
+
+# 系统与临时
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
