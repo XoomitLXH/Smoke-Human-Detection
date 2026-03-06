@@ -33,6 +33,7 @@
 
 ```
 ├── README.md                 # 说明文件
+├── remade.md                 # 项目说明（Smoke-Human-Detection 版本）
 ├── requirements.txt          # Python 依赖
 ├── UI_2.py                   # 主界面：明眸视觉 - 浓烟人体识别系统（PySide6）
 ├── integration.py            # 一键流程：时间对齐→空间对齐→去烟→融合→人体检测（Tkinter）
